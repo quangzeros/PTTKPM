@@ -42,10 +42,40 @@ Dự án nhằm phát triển một nền tảng web giúp người dùng dễ d
 - **Tính sáng tạo:**
   - Xây dựng công đồng người dùng giao lưu, tổ chức thi đấu giao hữu.
   - Tính năng nhận đánh giá và xếp hạng các sân theo điểm trung bình.
-
 ---
+## 5. Web Đặt Quán Hát 🎤
 
-## 5. Team Member
+## 🌟 Tính năng chính
+✅ **Người dùng**
+- Đăng ký, đăng nhập, xác thực bằng token (JWT)
+- Xem danh sách quán hát theo địa điểm
+- Đặt phòng hát với thời gian bắt đầu và kết thúc
+- Hủy đặt phòng nếu chưa đến giờ bắt đầu
+
+✅ **Quản trị viên (Admin)**
+- Quản lý danh sách quán hát (thêm, sửa, xóa)
+- Xem danh sách đơn đặt phòng của người dùng
+- Quản lý tài khoản người dùng
+
+## 🏗️ Công nghệ sử dụng
+- Laravel 11.x
+- MySQL (Cơ sở dữ liệu)
+- Laravel Passport (Xác thực API)
+- Laravel Policy (Phân quyền)
+
+
+## Sơ đồ USECASE
+
+![image](https://github.com/user-attachments/assets/414542e3-1c68-484a-bbd1-a5f4bb24802d)
+
+
+
+## Hình ảnh website
+
+
+
+
+## 6. Team Member
 
 - Nguyễn Khắc Quang - 22010316
 - Nguyễn Danh Bảo Đăng - 22010507
