@@ -45,33 +45,38 @@ Dự án nhằm phát triển một nền tảng web giúp người dùng dễ d
 ---
 ## 5. Web Đặt Quán Hát 🎤
 
-## 🌟 Tính năng chính
-✅ **Người dùng**
-- Đăng ký, đăng nhập, xác thực bằng token (JWT)
-- Xem danh sách quán hát theo địa điểm
-- Đặt phòng hát với thời gian bắt đầu và kết thúc
-- Hủy đặt phòng nếu chưa đến giờ bắt đầu
+  ## 🌟 Tính năng chính
+  ✅ **Người dùng**
+  - Đăng ký, đăng nhập, xác thực bằng token (JWT)
+  - Xem danh sách quán hát theo địa điểm
+  - Đặt phòng hát với thời gian bắt đầu và kết thúc
+  - Hủy đặt phòng nếu chưa đến giờ bắt đầu
+  
+  ✅ **Quản trị viên (Admin)**
+  - Quản lý danh sách quán hát (thêm, sửa, xóa)
+  - Xem danh sách đơn đặt phòng của người dùng
+  - Quản lý tài khoản người dùng
+  
+  ## 🏗️ Công nghệ sử dụng
+  - Laravel 11.x
+  - MySQL (Cơ sở dữ liệu)
+  - Laravel Passport (Xác thực API)
+  - Laravel Policy (Phân quyền)
+  
+  
+  ## Sơ đồ USECASE
+  
+  ![image](https://github.com/user-attachments/assets/414542e3-1c68-484a-bbd1-a5f4bb24802d)
 
-✅ **Quản trị viên (Admin)**
-- Quản lý danh sách quán hát (thêm, sửa, xóa)
-- Xem danh sách đơn đặt phòng của người dùng
-- Quản lý tài khoản người dùng
-
-## 🏗️ Công nghệ sử dụng
-- Laravel 11.x
-- MySQL (Cơ sở dữ liệu)
-- Laravel Passport (Xác thực API)
-- Laravel Policy (Phân quyền)
 
 
-## Sơ đồ USECASE
-
-![image](https://github.com/user-attachments/assets/414542e3-1c68-484a-bbd1-a5f4bb24802d)
-
-
-
-## Hình ảnh website
-
+  ## Hình ảnh website
+  ![image](https://github.com/user-attachments/assets/98836a72-6ed4-449f-a344-3467c66d5e10)
+  ![image](https://github.com/user-attachments/assets/3075b801-d868-4bfc-8d79-eac68f56eae9)
+  ![image](https://github.com/user-attachments/assets/31d2dc6e-e5a3-4711-970e-05d8ff72b67f)
+  ![image](https://github.com/user-attachments/assets/1e0bcc4d-5474-48e1-822e-3b02dbd6d4a9)
+  ![image](https://github.com/user-attachments/assets/6c20f188-037c-4836-9432-d075090c9d69)
+  ![image](https://github.com/user-attachments/assets/2eb2f58f-412c-468b-9f53-1d0afc7b67ff)
 
 
 
